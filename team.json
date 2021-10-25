@@ -1,0 +1,46 @@
+{
+    "tarion": {
+      "name": "Tarion",
+      "position": "Programmer",
+      "country": "Germany",
+      "links": {
+          "STEAM": "https://steamcommunity.com/profiles/76561198119267753/", 
+          "GITHUB": "https://github.com/tarionx"
+        }
+    },
+    "spark": {
+      "name": "Spark",
+      "position": "Programmer",
+      "country": "UK"
+    },
+    "huvvi": {
+      "name": "Huvvi",
+      "position": "Programmer",
+      "country": "Germany"
+    },
+    "adamcf": {
+      "name": "AdamCF",
+      "position": "Programmer",
+      "country": "UK"
+    },
+    "alexwhy": {
+      "name": "AlexWhy",
+      "position": "Programmer",
+      "country": "Austria"
+    },
+    "ragequit": {
+      "name": "RageQuit",
+      "position": "Programmer",
+      "country": "UK"
+    },
+    "yuno": {
+      "name": "Yuno",
+      "position": "Programmer",
+      "country": "UK"
+    },
+    "pain": {
+      "name": "Pain",
+      "position": "Programmer",
+      "country": "UK"
+    }
+}

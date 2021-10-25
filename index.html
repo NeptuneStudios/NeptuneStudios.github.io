@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Webpage description goes here" />
+  <meta charset="utf-8">
+  <title>Neptune Studios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <nav>
+        <nav class="nav-left">
+            <a href="index.html">Neptune Studios</a>
+        </nav>
+        <nav class="nav-right">
+            <a href="#projects">projects</a>
+            <a href="#team">team</a>
+            <a href="https://discord.gg/UR5WPeazUn" target="_blank">discord</a>
+        </nav>
+    </nav>
+    <div class="landing-showcase">
+        <img src="https://files.facepunch.com/garry/2ddf02d1-7f70-4542-bbe1-73b09af5ace2.jpg">
+    </div>
+    <div class="landing-projects" id="projects">
+        <div class="landing-projects-header">Check out some of our projects!</div>
+        <div class="landing-projects-showcase">
+            <a href="topdown-shooter.html">
+                <img src="img/256x356.jpg">
+            </a>
+            <a href="scp-game.html">
+                <img src="img/256x356.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="landing-team">
+        <div class="landing-team-header">Our team</div>
+        <div class="landing-team-rows" id="team">
+            <!--<div class="landing-team-rows-card-outer">
+                <div class="landing-team-rows-card">
+                    <img src="">
+                    <b>Test</b><br>
+                    <p>Test</p><br>
+                    <p>Test</p>
+                    <a href="" class="landing-team-rows-card-url">Test</a>
+                </div>
+            </div>-->
+        </div>
+    </div>
+    <div class="footer">
+        <b>Neptune Studios</b>
+    </div>
+</div>
+
+<script>
+    fetch("team.json")
+        .then(response => response.json())
+        .then(data => {
+            for (var key in data) {
+
+                var links = '';
+                var marginleft = 60;
+                for (var link in data[key].links) { 
+                    links += '<a href="'+data[key].links[link]+'" class="landing-team-rows-card-url" style="margin-left:'+marginleft+'px">'+link+'</a> '
+                    marginleft += 56;
+                }
+
+                let outer = document.createElement('landing-team-rows-card-outer');
+                outer.innerHTML = '<div class="landing-team-rows-card"> <img src="img/avatars/'+data[key].name+'.jpg"> <b>'+data[key].name+'</b><br> <p>'+data[key].position+'</p><br> <p>'+data[key].country+'</p> ' + links + '</div>'
+
+                document.getElementById('team').appendChild(outer)
+            }
+        })
+</script>
+
+</body>
+</html>

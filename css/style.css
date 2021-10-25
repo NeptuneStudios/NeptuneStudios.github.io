@@ -1,0 +1,179 @@
+
+html, body {
+    height: 100%;
+    margin: 0;   
+    background-color: #161622;
+}
+#wrapper {
+    min-height: 100%; 
+}
+
+.footer {
+    background-color: #212133;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, .2);
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+}
+.footer b {
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nav-left {
+    left: 10px;
+    position: absolute;
+}
+.nav-right {
+    right: 0px;
+    position: absolute;
+    margin-right: 15px;
+}
+.nav-left a {
+    float: right;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
+.nav-right a {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.nav-icon {
+    font-size:60px;
+    color:white;
+}
+
+.landing-showcase {
+    height:100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    margin: 0;
+    background-color: #000;
+    box-shadow: 1px 3px 30px rgba(0,0,0,.8);
+}
+.landing-showcase img {
+    width:100%;
+    height: 100%;
+    background-color: #000;
+}
+.landing-projects {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.landing-projects-header {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.landing-projects-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px;
+    transition: transform 0.2s;
+}
+.landing-projects-showcase a {
+    width: 256px;
+    height: 356px;
+    /*background-color: #1f1f2f;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, .4);*/
+    text-decoration: none;
+    justify-content: center;
+    padding: 14px;
+    transition: transform 0.1s;
+}
+.landing-projects-showcase a:hover {
+    transform: translate(2px, -2px);
+}
+.landing-projects-showcase a img {
+    width: 256px;
+    height: 356px;
+}
+
+.landing-team {
+    margin-top: 128px;
+    margin-bottom: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+.landing-team-header {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.landing-team-rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 12px;
+    row-gap: 52px;
+}
+.landing-team-rows-card-outer {
+    overflow: inherit;
+}
+.landing-team-rows-card {
+    height: 50px;
+    width: 300px;
+    display: block;
+}
+.landing-team-rows-card img {
+    border-radius: 100px;
+    height: 50px;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, .2);
+}
+.landing-team-rows-card b {
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    text-align: left;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 9px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.landing-team-rows-card p {    
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+    text-align: left;
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 60px;
+}
+.landing-team-rows-card-url {
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    background-color: #3367b9;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 4px 6px;
+    margin-top: -12px;
+    margin-left: 60px;
+}
