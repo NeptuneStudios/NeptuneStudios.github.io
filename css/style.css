@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     margin: 0;   
     background-color: #161622;
+    scroll-behavior: smooth;
 }
 #wrapper {
     min-height: 100%; 
@@ -72,42 +73,51 @@ html, body {
     height: 100%;
     background-color: #000;
 }
-.landing-projects {
-    margin-top: 64px;
-    margin-bottom: 48px;
-}
 .landing-projects-header {
     color: white;
     font-size: 2rem;
     font-family: 'Poppins',sans-serif;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
-.landing-projects-showcase {
+.landing-projects-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 64px;
+    place-content: center;
+
+}
+.landing-project-card {
+    background: #ffffff;
+    border-radius: .7rem;
+    padding: 6rem;
+    margin-left: -2rem;
+    box-shadow: 4px 4px 20px 4px rgba(50, 50, 20, 15);
     transition: transform 0.2s;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("esdeath.jpeg");
 }
-.landing-projects-showcase a {
-    width: 256px;
-    height: 356px;
-    /*background-color: #1f1f2f;
-    box-shadow: 1px 10px 20px rgba(0, 0, 0, .4);*/
-    text-decoration: none;
-    justify-content: center;
-    padding: 14px;
-    transition: transform 0.1s;
+.landing-project-card:hover {
+    transform: translateY(20px);
 }
-.landing-projects-showcase a:hover {
-    transform: translate(2px, -2px);
+.landing-project-card:hover ~ .landing-project-card, 
+.landing-project-card:focus-within ~ .landing-project-card {
+    transform: translateX(31px);
 }
-.landing-projects-showcase a img {
-    width: 256px;
-    height: 356px;
+.landing-project-card img{
+    width: 300px;
+    height: 450px;
 }
+.landing-project-card .img-content{
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+     /* Full width */
+    padding: 20px;/* Some padding */
+}
+
 
 .landing-team {
     margin-top: 128px;
