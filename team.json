@@ -44,3 +44,10 @@
       "country": "UK"
     }
 }
+    "LagQueen": {
+      "name": "LagQueen",
+      "position": "Level Designer",
+      "country": "Cyprus",
+      "links": {
+          "STEAM": "https://steamcommunity.com/id/Queen_Rita/", 
+          "GITHUB": "https://github.com/LagQueen"
