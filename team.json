@@ -20,7 +20,11 @@
     "huvvi": {
       "name": "Huvvi",
       "position": "Programmer",
-      "country": "Germany"
+      "country": "Turkey",
+      "links": {
+          "STEAM": "https://steamcommunity.com/id/huvvi/",
+          "GITHUB": "https://github.com/huvvi"
+        }
     },
     "adamcf": {
       "name": "AdamCF",
