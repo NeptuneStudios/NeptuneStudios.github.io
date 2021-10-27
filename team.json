@@ -49,7 +49,11 @@
     "pain": {
       "name": "Pain",
       "position": "Programmer",
-      "country": "UK"
+      "country": "UK",
+      "links": {
+          "STEAM": "https://steamcommunity.com/id/PainKush/",
+          "GITHUB": "https://github.com/PainKush"
+         }
     },
     "lagqueen": {
       "name": "LagQueen",
