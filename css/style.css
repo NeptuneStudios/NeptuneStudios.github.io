@@ -2,24 +2,28 @@
 html, body {
     height: 100%;
     margin: 0;   
+<<<<<<< Updated upstream
     background-color: #161622;
+=======
+    background-color: #1d1d46;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+>>>>>>> Stashed changes
 }
 #wrapper {
     min-height: 100%; 
 }
 
 .footer {
-    background-color: #212133;
+    background-color: #171737;
     box-shadow: 1px 10px 20px rgba(0, 0, 0, .2);
-    color: white;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 14px;
 }
 .footer b {
-    color: white;
     font-size: 1.25rem;
-    font-family: 'Poppins',sans-serif;
     font-weight: bold;
     text-align: left;
 }
@@ -34,28 +38,22 @@ html, body {
     margin-right: 15px;
 }
 .nav-left a {
+    color: white;
     float: right;
     padding: 20px;
-    color: white;
     text-decoration: none;
     font-size: 2rem;
-    font-family: 'Poppins',sans-serif;
     font-weight: bold;
 }
 .nav-right a {
+    color: white;
     float: left;
     text-align: center;
     padding: 10px;
-    color: white;
     text-decoration: none;
     font-size: 1.2rem;
-    font-family: 'Poppins',sans-serif;
     font-weight: 500;
     margin-top: 10px;
-}
-.nav-icon {
-    font-size:60px;
-    color:white;
 }
 
 .landing-showcase {
@@ -65,7 +63,7 @@ html, body {
     overflow: hidden;
     margin: 0;
     background-color: #000;
-    box-shadow: 1px 3px 30px rgba(0,0,0,.8);
+    box-shadow: 1px 3px 30px rgba(0,0,0,.7);
 }
 .landing-showcase img {
     width:100%;
@@ -77,15 +75,19 @@ html, body {
     margin-bottom: 48px;
 }
 .landing-projects-header {
-    color: white;
     font-size: 2rem;
-    font-family: 'Poppins',sans-serif;
     font-weight: bold;
     text-align: center;
+<<<<<<< Updated upstream
     margin-bottom: 32px;
+=======
+    margin-bottom: 50px;
+    margin-top: 80px;
+>>>>>>> Stashed changes
 }
 .landing-projects-showcase {
     display: flex;
+<<<<<<< Updated upstream
     flex-wrap: wrap;
     justify-content: center;
     gap: 64px;
@@ -108,6 +110,31 @@ html, body {
     width: 256px;
     height: 356px;
 }
+=======
+    place-content: center;
+
+}
+.landing-project-card {
+    width: 312px;
+    height: 456px;
+    background-image: url("../img/312x456.jpg");
+    margin-left: -2rem;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, .2);
+    transition: transform 0.2s;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.landing-project-card:hover {
+    transform: translate3d(0px, 20px, 20px);
+    z-index: 1;
+}
+.landing-project-card:hover ~ .landing-project-card, 
+.landing-project-card:focus-within ~ .landing-project-card {
+    transform: translate3d(31px, 0px, -20px);
+    z-index: -1;
+}
+>>>>>>> Stashed changes
 
 .landing-team {
     margin-top: 128px;
@@ -117,9 +144,7 @@ html, body {
     max-width: 1280px;
 }
 .landing-team-header {
-    color: white;
     font-size: 2rem;
-    font-family: 'Poppins',sans-serif;
     font-weight: bold;
     text-align: center;
     margin-bottom: 32px;
@@ -146,8 +171,6 @@ html, body {
     box-shadow: 1px 10px 20px rgba(0, 0, 0, .2);
 }
 .landing-team-rows-card b {
-    color: white;
-    font-family: 'Poppins',sans-serif;
     text-align: left;
     position: absolute;
     margin-top: 0px;
@@ -156,9 +179,7 @@ html, body {
     font-size: 15px;
 }
 .landing-team-rows-card p {    
-    color: white;
     font-size: 12px;
-    font-family: 'Poppins',sans-serif;
     text-align: left;
     position: absolute;
     margin-top: -32px;
@@ -166,12 +187,11 @@ html, body {
 }
 .landing-team-rows-card-url {
     color: white;
-    font-family: 'Poppins',sans-serif;
     font-weight: bold;
     text-decoration: none;
     text-align: left;
     position: absolute;
-    background-color: #3367b9;
+    background-color: #2e6099;
     font-size: 12px;
     border-radius: 2px;
     padding: 4px 6px;
