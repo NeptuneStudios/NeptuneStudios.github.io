@@ -11,6 +11,42 @@ html, body {
     min-height: 100%; 
 }
 
+.nav-left {
+    left: 10px;
+    position: absolute;
+}
+.nav-right {
+    right: 0px;
+    position: absolute;
+    margin-right: 15px;
+}
+.nav-left a {
+    color: white;
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+}
+.nav-icon {
+    height: 84px;
+    width: 84px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.nav-right a {
+    color: rgba(255, 255, 255, .9);
+    float: left;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 550;
+    margin-top: 10px;
+}
+
 .footer {
     background-color: #171737;
     box-shadow: 1px 10px 20px rgba(0, 0, 0, .2);
@@ -20,7 +56,8 @@ html, body {
 }
 .footer b {
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: 750;
+    color: rgba(255, 255, 255, .9);
     text-align: left;
 }
 .waveform {
@@ -42,40 +79,6 @@ html, body {
     fill: #171737;
 }
 
-.nav-left {
-    left: 10px;
-    position: absolute;
-}
-.nav-right {
-    right: 0px;
-    position: absolute;
-    margin-right: 15px;
-}
-.nav-left a {
-    color: white;
-    float: right;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: bold;
-}
-.nav-icon {
-    height: 84px;
-    width: 84px;
-    margin-top: 8px;
-    margin-left: 8px;
-}
-.nav-right a {
-    color: white;
-    float: left;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-top: 10px;
-}
-
 .landing-showcase {
     height:100vh;
     display: flex;
@@ -92,7 +95,8 @@ html, body {
 }
 .landing-projects-header {
     font-size: 2rem;
-    font-weight: bold;
+    letter-spacing: -0.025em;
+    font-weight: 800;
     text-align: center;
     margin-bottom: 50px;
     margin-top: 80px;
@@ -100,7 +104,6 @@ html, body {
 .landing-projects-container {
     display: flex;
     place-content: center;
-
 }
 .landing-project-card {
     width: 312px;
@@ -132,7 +135,8 @@ html, body {
 }
 .landing-team-header {
     font-size: 2rem;
-    font-weight: bold;
+    letter-spacing: -0.025em;
+    font-weight: 800;
     text-align: center;
     margin-bottom: 32px;
 }
