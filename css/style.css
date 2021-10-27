@@ -2,14 +2,10 @@
 html, body {
     height: 100%;
     margin: 0;   
-<<<<<<< Updated upstream
-    background-color: #161622;
-=======
     background-color: #1d1d46;
     scroll-behavior: smooth;
     font-family: 'Poppins',sans-serif;
     color: white;
->>>>>>> Stashed changes
 }
 #wrapper {
     min-height: 100%; 
@@ -70,47 +66,15 @@ html, body {
     height: 100%;
     background-color: #000;
 }
-.landing-projects {
-    margin-top: 64px;
-    margin-bottom: 48px;
-}
 .landing-projects-header {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-<<<<<<< Updated upstream
-    margin-bottom: 32px;
-=======
     margin-bottom: 50px;
     margin-top: 80px;
->>>>>>> Stashed changes
 }
-.landing-projects-showcase {
+.landing-projects-container {
     display: flex;
-<<<<<<< Updated upstream
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 64px;
-    transition: transform 0.2s;
-}
-.landing-projects-showcase a {
-    width: 256px;
-    height: 356px;
-    /*background-color: #1f1f2f;
-    box-shadow: 1px 10px 20px rgba(0, 0, 0, .4);*/
-    text-decoration: none;
-    justify-content: center;
-    padding: 14px;
-    transition: transform 0.1s;
-}
-.landing-projects-showcase a:hover {
-    transform: translate(2px, -2px);
-}
-.landing-projects-showcase a img {
-    width: 256px;
-    height: 356px;
-}
-=======
     place-content: center;
 
 }
@@ -134,7 +98,6 @@ html, body {
     transform: translate3d(31px, 0px, -20px);
     z-index: -1;
 }
->>>>>>> Stashed changes
 
 .landing-team {
     margin-top: 128px;
