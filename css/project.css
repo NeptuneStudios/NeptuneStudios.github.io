@@ -1,0 +1,89 @@
+
+nav {
+    z-index: 1;
+    position: relative;
+}
+.landing-showcase {
+    align-items: center;
+}
+.landing-showcase video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    z-index: 0;
+}
+.landing-showcase-card {
+    position: absolute;
+    margin: 0 auto;
+    top: 35%;
+    width: 60%;
+    text-align: left;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+.landing-showcase-card b {
+    color: rgb(26, 137, 202);
+    font-size: 5rem;
+    font-weight: 800;
+}
+.landing-showcase-card p {
+    color: rgb(145, 190, 216);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.project-card {
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+    height: 400px;
+    padding-bottom: 15rem;
+    padding-top: 15rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+.project-card img {
+    height: 400px;
+}
+.project-card-left {
+    flex: 1;
+    width: 80%;
+    border-right: 6px solid rgb(45, 136, 189);
+    background: linear-gradient(270deg,rgba(45, 136, 189,.3),rgba(45, 136, 189,0));
+    text-align: left;
+}
+.project-card-left-2 {
+    flex: 1;
+    width: 80%;
+    border-left: 6px solid rgb(45, 136, 189);
+    background: linear-gradient(-270deg,rgba(45, 136, 189,.3),rgba(45, 136, 189,0));
+    text-align: left;
+}
+.project-card-left-2 b {
+    color: rgb(26, 137, 202);
+    font-size: 3rem;
+    font-weight: 800;
+    margin-left: 10%;
+}
+.project-card-left-2 p {
+    color: rgb(145, 190, 216);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-left: 10%;
+}
+.project-card-left b {
+    color: rgb(26, 137, 202);
+    font-size: 3rem;
+    font-weight: 800;
+    margin-left: 20%;
+}
+.project-card-left p {
+    color: rgb(145, 190, 216);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-left: 20%;
+}
+.project-card-right {
+    flex: 1;
+    width: 60%;
+}
