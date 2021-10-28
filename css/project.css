@@ -90,7 +90,7 @@ nav {
     font-size: 3rem;
     font-weight: 800;
     margin-left: 10%;
-    max-width: 50px;
+    max-width: 100%;
     display: block;
 }
 .project-card-left-2 p {
