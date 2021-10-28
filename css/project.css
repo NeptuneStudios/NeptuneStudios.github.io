@@ -3,6 +3,12 @@ nav {
     z-index: 1;
     position: relative;
 }
+.nav-icon {
+    height: 84px;
+    width: 84px;
+    margin-top: -12px;
+    margin-left: -12px;
+}
 .landing-showcase {
     align-items: center;
 }
