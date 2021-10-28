@@ -64,6 +64,8 @@ nav {
     font-size: 3rem;
     font-weight: 800;
     margin-left: 20%;
+    max-width: 50px;
+    display: block;
 }
 .project-card-left p {
     color: rgb(145, 190, 216);
@@ -88,6 +90,8 @@ nav {
     font-size: 3rem;
     font-weight: 800;
     margin-left: 10%;
+    max-width: 50px;
+    display: block;
 }
 .project-card-left-2 p {
     color: rgb(145, 190, 216);
@@ -97,6 +101,5 @@ nav {
 }
 .project-card-right-2 {
     flex: 1;
-    width: 60%;
     text-align: right;
 }
