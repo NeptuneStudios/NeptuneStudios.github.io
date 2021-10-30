@@ -51,6 +51,9 @@ nav {
 .project-card img {
     height: 400px;
 }
+.project-card video {
+    height: 400px;
+}
 /* Left Card */
 .project-card-left {
     flex: 1;
@@ -102,4 +105,34 @@ nav {
 .project-card-right-2 {
     flex: 1;
     text-align: right;
+}
+
+.media {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.media b {
+    color: rgb(26, 137, 202);
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(24, 97, 139);
+}
+.media-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 12px;
+    row-gap: 20px;
+}
+.media-content img {
+    width: 25%;
+    height: 25%;
+}
+.media-content video {
+    width: 25%;
+    height: 25%;
 }
